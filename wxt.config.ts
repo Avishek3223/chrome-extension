@@ -19,7 +19,7 @@ export default defineConfig({
     },
     web_accessible_resources: [
       {
-        resources: ["./components/ai.svg","./components/AiIcon.tsx","./components/Modal.tsx","./entrypoints/popup/main.tsx"], // If there are assets that need to be accessible
+        resources: ["./components/Modal.ts","./entrypoints/popup/main.tss"], // If there are assets that need to be accessible
         matches: ["*://*.linkedin.com/*"], // Limit to LinkedIn or other specific domains
       },
     ],
