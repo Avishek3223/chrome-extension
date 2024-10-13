@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './style.css'; // Ensure your styles are imported
-import AiIcon from '../../components/AiIcon'; // Adjust the import path as needed
 
 const Main: React.FC = () => {
   const [isMessageFocused, setIsMessageFocused] = useState(false);
@@ -33,7 +32,6 @@ const Main: React.FC = () => {
 
   return (
     <div>
-      {isMessageFocused && <AiIcon />} {/* AI icon should show when input is focused */}
     </div>
   );
 };
